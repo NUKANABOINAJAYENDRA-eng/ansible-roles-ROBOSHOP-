@@ -1,6 +1,0 @@
-- name: installing roboshop project
-  hosts: mongodb
-  remote_user: ansible
-  become: yes
-  roles:
-  - mongodb

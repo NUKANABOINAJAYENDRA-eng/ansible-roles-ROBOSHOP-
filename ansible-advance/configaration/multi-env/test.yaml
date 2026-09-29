@@ -1,8 +1,0 @@
-- name: installing roboshop project
-  hosts: mongodb
-  remote_user: ansible
-  become: yes
-  tasks:
-  - name: print the variable according to environment
-    ansible.builtin.debug:
-      msg: "Hello {{ NAME }}"
